@@ -3,6 +3,9 @@
 > a vue component about password keybord
 > 一个vue的支付键盘组件，6位数密码，可显示金额，可与mint-ui的弹窗组件组合使用
 
+# Example
+[Demo Page](https://pengxinlei.github.io/vue-password-input/)
+
 # Use Setup
 ### Install vue-password-input
 ```javascript
