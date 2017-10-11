@@ -8,5 +8,8 @@ const passwordInput={
         Vue.component(vuePasswordInput.name,vuePasswordInput)
     }
 }
+if (typeof window !== 'undefined' && window.Vue) {
+    window.Vue.use(passwordInput);
+}
 
 export default passwordInput;

@@ -6,7 +6,16 @@
     <title>vue-password-input</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script src="/dist/build.js"></script>
+    <div id="app">
+      <vue-password-input/>
+    </div>
+    <script src="/node_modules/vue/dist/vue.js"></script>
+    <script src="/dist/vue-password-input.js"></script>
+
+    <script>
+        var vm = new Vue({
+            el: '#app',
+        })
+    </script>
   </body>
 </html>
