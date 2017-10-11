@@ -4,7 +4,6 @@
   "version": "1.0.1",
   "author": "豆浆 <303859490@qq.com>",
   "license": "MIT",
-  "main": "dist/vue-password-input.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/pengxinlei/vue-password-input.git"
