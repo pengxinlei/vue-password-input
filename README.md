@@ -3,6 +3,7 @@
 > a vue component about password keybord
 > 一个vue的支付键盘组件，6位数密码，可显示金额，可与mint-ui的弹窗组件组合使用
 
+# Use Setup
 ### Install vue-password-input
 ```javascript
 npm install vue-password-input -s
@@ -30,7 +31,7 @@ export default {
     vuePasswordInput
   }
 }
-
+```
 
 // 或者直接导入js文件
 <script src="./dist/vue-password-input.js"></script>
@@ -38,22 +39,9 @@ export default {
 ### Attributes:
 
 参数 | 说明 | 类型  | 默认值
-|---|---|---|---|---|
+|---|---|---|---|
 title | 顶部显示文字 | String |  输入密码 |
 findPasswordPath  | 忘记密码的链接（有显示文字，没有就不显示） | String |  |
 tradeAmount  | 交易金额（有就显示，没有就不显示） | String |  |
 
-## Build Setup
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
